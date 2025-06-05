@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     outline: 2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body{
@@ -20,22 +21,41 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
+    padding: 1%;
 
 }
 
 .logo2{
-    width: 200px;
+    width: 150px;
 }
+
 
 ul{
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+.nav-item{
+    background-color: rgba(255, 255, 255, 0.605);
+    border-radius: 15px;
+    height: 25px;
+    display: flex;
+    align-items: center; 
 }
 
 a{
     text-decoration: none;
+    color: black;
+    
+}
+
+#assine{
+    background-color: lime;
 }
 
 body{
