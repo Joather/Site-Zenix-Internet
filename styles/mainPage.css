@@ -39,6 +39,14 @@ a{
 }
 
 body{
-    background-color: rgb(129, 129, 129);
-    color: white;
+    background-color: rgb(#FFFFFF);
+    color: #101111;
+}
+
+/* PARTE DO JOACOS */
+
+.planos {
+    margin-top: 10em;
+    color: #FAFAFA;
+    background: linear-gradient(to right, black, black, green);
 }
