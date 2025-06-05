@@ -39,13 +39,14 @@ a{
 }
 
 body{
-    background-color: rgb(#ffffff);
+    background-color: (#FFFFFF);
     color: #101111;
 }
 
 /* PARTE DO JOACOS */
 
 .planos {
+    padding-top: 1em;
     margin-top: 10em;
     color: #FAFAFA;
     background: linear-gradient(to right, black, black, green);
