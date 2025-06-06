@@ -46,8 +46,16 @@ body{
 /* PARTE DO JOACOS */
 
 .planos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 1em;
     margin-top: 10em;
     color: #FAFAFA;
     background: linear-gradient(to right, black, black, green);
+}
+
+#tituloPlanos {
+    font-size: 52px;
 }
