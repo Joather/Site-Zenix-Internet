@@ -9,6 +9,14 @@ html, body{
     width: 100%;
 }
 
+p {
+    color: #828282;
+}
+
+h1, h2, h3 {
+    color: #101111;
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -56,6 +64,16 @@ body{
     background: linear-gradient(to right, black, black, green);
 }
 
-#tituloPlanos {
+.planosTitulo {
+    color: #FAFAFA;
+}
+
+#planosTexto {
     font-size: 52px;
+}
+
+
+.planosValores {
+    margin: 10%;
+    background-color: #FAFAFA;
 }
